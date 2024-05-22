@@ -16,7 +16,7 @@ num1 = 900
 num2 = 9000
 
 # Calculate sum using the function
-result = sum_of_two_numbers(num1)
+result = sum_of_two_numbers(num1,num2)
 
 # Print the result
 print("Sum of", num1, "and", num2, "is:", result)
