@@ -12,7 +12,7 @@ def sum_of_two_numbers(num1, num2):  # added num2 as a parameter
     return num1 + num2
 
 # Define numbers
-num1 = 1000
+num1 = 9000
 num2 = 9000
 
 # Calculate sum using the function
