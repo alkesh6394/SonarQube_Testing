@@ -49,7 +49,7 @@ jobs:
           SONAR_SCANNER_OPTS: -Dsonar.python.version=3
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=your_project_key \
-            -Dsonar.host.url=http://http://3.110.85.224
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
-            -Dsonar.python.coverage.reportPaths=coverage.xml
+                -Dsonar.projectKey=sonartesting \
+                -Dsonar.sources=. \
+                -Dsonar.host.url=http://3.110.85.224:9000 \
+                -Dsonar.login=db1818b6889c9a8bea103265bf37e49e71db09b8
