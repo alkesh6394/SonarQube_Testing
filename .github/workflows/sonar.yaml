@@ -51,5 +51,5 @@ jobs:
           sonar-scanner \
                 -Dsonar.projectKey=sonartesting \
                 -Dsonar.sources=. \
-                -Dsonar.host.url=http://3.110.85.224:9000 \
+                -Dsonar.host.url=http://65.0.12.67/:9000 \
                 -Dsonar.login=db1818b6889c9a8bea103265bf37e49e71db09b8
